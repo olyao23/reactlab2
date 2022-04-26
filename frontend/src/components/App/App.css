@@ -1,0 +1,42 @@
+.booksSite, .categoriesSite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#logo {
+  margin-right: 30px;
+}
+
+.headerList {
+  display: flex;
+  padding: 10px;
+  background: lightgray;
+}
+
+.headerList li {
+  list-style-type: none;
+}
+
+.headerList a {
+  text-decoration: none;
+  color: brown;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.tableBooks, .tableBooks th {
+  color: blue;
+  border-collapse: collapse;
+  border: 1px solid lightblue;
+  padding: 10px;
+}
+
+.tableCategories, .tableCategories th {
+  color: hotpink;
+  border-collapse: collapse;
+  border: 1px solid lightpink;
+  padding: 10px;
+}
+
